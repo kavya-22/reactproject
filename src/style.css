@@ -23,4 +23,17 @@ div h1 {
 #a5 {
   color: green;
 }
+
+.list {
+  text-align: center;
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+  margin: 70px;
+  background-color: #ebb487;
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+}
 /*# sourceMappingURL=style.css.map */
