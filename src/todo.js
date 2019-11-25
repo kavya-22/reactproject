@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.scss';
 import ReactDOM from 'react-dom';
 class Todo extends React.Component{
     constructor(props) {
@@ -69,7 +70,7 @@ render(){
              <table align="center">
                 <tr>  
                     <th> 
-            <input align="center" type="text" value={this.state.newitem} onChange={this.onChange}></input>
+            <input id="a3"  type="text" value={this.state.newitem} onChange={this.onChange}></input>
             &nbsp;
             </th>
             <th>            
@@ -84,9 +85,9 @@ render(){
                          {item.value}
                          &nbsp;
                          
-                             <button id="a2" class="btn btn-danger"  onClick={()=>{this.delete(item.id)}}>Delete</button>&nbsp;
+                             <button id="a5" class="btn btn-danger"  onClick={()=>{this.delete(item.id)}}>Delete</button>&nbsp;
                              &nbsp;
-               <button id="a2" class="btn btn-success"  onClick={()=>{this.edit(item.id)}} > edit</button>
+               <button id="a4" class="btn btn-success"  onClick={()=>{this.edit(item.id)}} > edit</button>
                      </ul>)
                  })}
              
